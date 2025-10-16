@@ -9,5 +9,8 @@ abstract class Controller
     {
        $this->data = ["site_name"=>"my_ecommerce"];
     }
+    function index(){
+        //just for testing
+    }
 
 }
