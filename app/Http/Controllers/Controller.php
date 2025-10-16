@@ -4,11 +4,10 @@ namespace App\Http\Controllers;
 
 abstract class Controller
 {
+    protected $data;
     function __construct()
     {
-        // This constructor can be used to initialize common properties or middleware
+       $this->data = ["site_name"=>"my_ecommerce"];
     }
-    function index(){
-        //this method is for testing purposes
-    }
+
 }
